@@ -2,93 +2,66 @@ import React from 'react';
 import { Button } from 'reactstrap';
 import { socialLinks } from '../portfolio';
 
+type SocialLinksStylesType = {
+  [link: string]: {
+    color: string;
+    ariaLabel: string;
+    icon: string;
+  }
+  };
+
+const socialLinksStyles: SocialLinksStylesType = {
+  url: {
+    color: "white",
+    ariaLabel: "URL",
+    icon: "fa-link"
+  },
+  linkedin: {
+    color: "twitter",
+    ariaLabel: "Linkedin",
+    icon: "fa-linkedin"
+  },
+  github: {
+    color: "github",
+    ariaLabel: "Github",
+    icon: "fa-github"
+  },
+  instagram: {
+    color: "instagram",
+    ariaLabel: "Instagram",
+    icon: "fa-instagram"
+  },
+  facebook: {
+    color: "facebook",
+    ariaLabel: "Facebook",
+    icon: "fa-facebook"
+  },
+  twitter: {
+    color: "twitter",
+    ariaLabel: "Twitter",
+    icon: "fa-twitter"
+  }
+}
+
+
 const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
-      {socialLinks.url && (
+      { Object.keys(socialLinks).map(link => (
         <Button
           className="btn-icon-only rounded-circle ml-1"
-          color="white"
+          color={socialLinksStyles[link].color}
           rel="noopener"
-          aria-label="URL"
-          href={socialLinks.url}
+          aria-label={socialLinksStyles[link].ariaLabel}
+          href={socialLinks[link]}
           target="_blank"
+          key={link}
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-link" />
+            <i className={`fa ${socialLinksStyles[link].icon}`} />
           </span>
         </Button>
-      )}
-      {socialLinks.linkedin && (
-        <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="twitter"
-          rel="noopener"
-          aria-label="Linkedin"
-          href={socialLinks.linkedin}
-          target="_blank"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-linkedin" />
-          </span>
-        </Button>
-      )}
-      {socialLinks.github && (
-        <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="github"
-          href={socialLinks.github}
-          rel="noopener"
-          aria-label="Github"
-          target="_blank"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-github" />
-          </span>
-        </Button>
-      )}
-      {socialLinks.instagram && (
-        <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="instagram"
-          href={socialLinks.instagram}
-          target="_blank"
-          rel="noopener"
-          aria-label="Instagram"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-instagram" />
-          </span>
-        </Button>
-      )}
-      {socialLinks.facebook && (
-        <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="facebook"
-          href={socialLinks.facebook}
-          target="_blank"
-          rel="noopener"
-          aria-label="Facebook"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-facebook-square" />
-          </span>
-        </Button>
-      )}
-      {socialLinks.twitter && (
-        <Button
-          className="btn-icon-only rounded-circle"
-          color="twitter"
-          href={socialLinks.twitter}
-          target="_blank"
-          rel="noopener"
-          aria-label="Twitter"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-twitter" />
-          </span>
-        </Button>
-      )}
+      ))}
     </div>
   );
 };

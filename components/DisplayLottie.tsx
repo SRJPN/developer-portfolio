@@ -5,7 +5,7 @@ type Props = {
   animationPath: string;
 };
 
-const GreetingLottie = ({ animationPath }: Props) => {
+const DisplayLottie = ({ animationPath }: Props) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -20,4 +20,4 @@ const GreetingLottie = ({ animationPath }: Props) => {
   );
 };
 
-export default GreetingLottie;
+export default DisplayLottie;

@@ -2,7 +2,7 @@ import React from 'react';
 import { SkillBars } from '../portfolio';
 import { Container, Row, Progress, Col } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
-import GreetingLottie from '../components/DisplayLottie';
+import DisplayLottie from '../components/DisplayLottie';
 
 const Proficiency = () => {
   return (
@@ -33,7 +33,7 @@ const Proficiency = () => {
               })}
             </Col>
             <Col lg="6">
-              <GreetingLottie animationPath="/lottie/build.json" />
+              <DisplayLottie animationPath="/lottie/build.json" />
             </Col>
           </Row>
         </Fade>

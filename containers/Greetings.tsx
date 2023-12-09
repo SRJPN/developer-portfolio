@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { greetings } from '../portfolio';
 import { Button, Container, Row, Col } from 'reactstrap';
-import GreetingLottie from '../components/DisplayLottie';
+import DisplayLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
 
 const Greetings = () => {
@@ -50,7 +50,7 @@ const Greetings = () => {
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                  <DisplayLottie animationPath="/lottie/coding.json" />
                 </Col>
               </Row>
             </div>
