@@ -99,22 +99,7 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
 
-## For the Future
 
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+## Reference
 
-- Enable Dark Mode
-
-- Add More Sections
-
-## Author
-
-👤 **Hanzla Tauqeer**
-
-- Website: https://hanzla.netlify.app
-- Github: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
+- https://github.com/1hanzla100/hanzla-portfolio.git
