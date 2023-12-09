@@ -35,7 +35,7 @@ export const skillsSection: SkillsSectionType = {
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Backend Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
@@ -164,51 +164,52 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
-    descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    ],
+    schoolName: 'Alagappa University, Karaikudi, Tamil Nadu',
+    course: 'Master of Business Administration (MBA)',
+    duration: '2018 - 2020',
+    desc: 'Specialization in Project Management',
+  },
+  {
+    schoolName: 'Alagappa University, Karaikudi, Tamil Nadu',
+    course: 'Bachelor of Computer Applications (BCA)',
+    duration: '2016 - 2018',
+    desc: 'Computer Applications',
+  },
+  {
+    schoolName: 'Govt. Polytechnic College, Chelakkara, Kerala',
+    course: 'Diploma in Engineering',
+    duration: '2012 - 2015',
+    desc: 'Electronics Engineering',
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Senior Software Engineer',
+    company: 'Deserve Labs',
+    companyLogo: '/img/icons/common/deserve-logo.png',
+    date: 'July 2022 – Present',
+    desc: 'Spearheaded low-level design and implementation across various facets of the self-processing platform. Designed and developed customer rewards systems for SaaS - Self processing platform (Credit card as a service). Single-handedly managed real-time reward processing for each transaction based on custom logic for each tenant.',
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    role: 'Senior Consultant',
+    company: 'Thoughtworks Technologies',
+    companyLogo: '/img/icons/common/Thoughtworks.jpeg',
+    date: 'July 2017 – July 2022',
+    desc: 'Developed custom software solutions for clients and actively participated in the software development life cycle. Mentored and guided graduate developers and assisted in deciding software infrastructure. Key Project Contributions:',
     descBullets: [
-    	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Database Developer - Product Catalogue: Modelled databases, optimised queries, and improved query performance by over 50%.",
+      "Fullstack Developer - Product Catalogue: Developed a new application reducing spare part search time by 70% for dealers/customers.",
+      "Full Stack / Lead Developer - Exhibition Organisers: Built a new platform to manage over 400 show engagements with global coordination.",
     ],
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
+    role: 'STEP Intern',
+    company: 'Thoughtworks Technologies',
+    companyLogo: '/img/icons/common/Thoughtworks.jpeg',
+    date: 'June 2015 – July 2017',
+    desc: 'Contributed to the development of a Ticket Booking Application handling high request loads and maintained an admin portal for shows. Built scalable architecture for an instantaneous load of over 10k requests. Developed applications for iOS and Android devices to provide a consistent user experience.',
+  }
 ];
 
 export const projects: ProjectType[] = [];

@@ -5,11 +5,9 @@ import Fade from 'react-reveal/Fade';
 
 const EducationCard = ({
   schoolName,
-  subHeader,
+  course,
   duration,
-  desc,
-  grade,
-  descBullets,
+  desc
 }: EducationType) => {
   return (
     <Fade left duration={2000}>
@@ -17,24 +15,12 @@ const EducationCard = ({
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
-              <h5 className="text-info">{schoolName}</h5>
-              <h6>{subHeader}</h6>
-              <Badge color="info" className="mr-1">
+              <h5 className="text-info">{course}</h5>
+              <h6>{schoolName}</h6>
+              <Badge color="info" className="mr-2">
                 {duration}
               </Badge>
-              {grade && (
-                <Badge color="primary" className="mr-1">
-                  {grade}
-                </Badge>
-              )}
               <p className="description mt-3">{desc}</p>
-              <ul>
-                {descBullets
-                  ? descBullets.map((desc) => {
-                      return <li key={desc}>{desc}</li>;
-                    })
-                  : null}
-              </ul>
             </div>
           </div>
         </CardBody>

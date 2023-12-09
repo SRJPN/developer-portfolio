@@ -53,11 +53,9 @@ export type SkillBarsType = {
 
 export type EducationType = {
   schoolName: string;
-  subHeader: string;
+  course: string;
   duration: string;
   desc: string;
-  grade?: string;
-  descBullets?: string[];
 };
 
 // * EXPERIENCE SECTION
