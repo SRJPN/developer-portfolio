@@ -36,34 +36,25 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Backend Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/backend.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Developing RESTful APIs using ASP.Net Core'),
+        emoji('⚡ Crafting Application Services with Node.js and Express'),
+        emoji('⚡ Constructing RESTful APIs utilizing Django & Django REST Framework'),
+        emoji('⚡ Designing Serverless applications using AWS Lambda & API Gateway'),
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
-          iconifyTag: 'vscode-icons:file-type-html',
+          skillName: 'dotnetcore',
+          iconifyTag: 'devicon:dotnetcore',
         },
         {
-          skillName: 'CSS-3',
-          iconifyTag: 'vscode-icons:file-type-css',
+          skillName: 'NodeJs',
+          iconifyTag: 'logos:nodejs',
         },
         {
           skillName: 'JavaScript',
           iconifyTag: 'logos:javascript',
-        },
-        {
-          skillName: 'Reactjs',
-          iconifyTag: 'vscode-icons:file-type-reactjs',
-        },
-        {
-          skillName: 'Nextjs',
-          iconifyTag: 'vscode-icons:file-type-light-next',
         },
         {
           skillName: 'Python',
@@ -73,18 +64,51 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Django',
           iconifyTag: 'vscode-icons:file-type-django',
         },
-
         {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
+          skillName: 'AWS-Lambda',
+          iconifyTag: 'logos:aws-lambda',
+        },
+        {
+          skillName: 'GraphQL',
+          iconifyTag: 'logos:graphql',
         },
         {
           skillName: 'NPM',
           iconifyTag: 'logos:npm-icon',
         },
         {
-          skillName: 'Yarn',
-          iconifyTag: 'logos:yarn',
+          skillName: 'Elixir',
+          iconifyTag: 'devicon:elixir-wordmark',
+        },
+      ],
+    },
+    {
+      title: 'Fullstack / Frontend Development',
+      lottieAnimationFile: '/lottie/skills/frontend.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ Building dynamic user interfaces with React'),
+        emoji('⚡ Creating robust web applications using Angular'),
+        emoji('⚡ Developing server-side rendered applications with Next.js'),
+        emoji('⚡ Crafting visually appealing and responsive designs with CSS'),
+
+      ],
+      softwareSkills: [
+        // ? Check README To get icon details
+        {
+          skillName: 'React',
+          iconifyTag: 'logos:react',
+        },
+        {
+          skillName: 'Angular',
+          iconifyTag: 'devicon:angular',
+        },
+        {
+          skillName: 'NextJs',
+          iconifyTag: 'logos:nextjs',
+        },
+        {
+          skillName: 'CSS',
+          iconifyTag: 'logos:css-3',
         },
       ],
     },
@@ -107,13 +131,30 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:aws',
         },
         {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
+          skillName: 'AWS-Cognito',
+          iconifyTag: 'logos:aws-cognito',
         },
         {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
+          skillName: 'AWS-CloudFormation',
+          iconifyTag: 'logos:aws-cloudformation',
         },
+        {
+          skillName: 'AWS-Fargate',
+          iconifyTag: 'logos:aws-fargate',
+        },
+        {
+          skillName: 'AWS-Lambda',
+          iconifyTag: 'logos:aws-lambda',
+        },
+        {
+          skillName: 'AWS-SQS',
+          iconifyTag: 'logos:aws-sqs',
+        },
+        {
+          skillName: 'AWS-SNS',
+          iconifyTag: 'logos:aws-sns',
+        },
+
         {
           skillName: 'PostgreSQL',
           iconifyTag: 'logos:postgresql',
@@ -130,18 +171,6 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Github Actions',
           iconifyTag: 'logos:github-actions',
         },
-        {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
       ],
     },
   ],
@@ -149,16 +178,20 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
-  },
-  {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '90',
   },
   {
     Stack: 'Programming',
+    progressPercentage: '80',
+  },
+  {
+    Stack: 'Cloud Infra', 
     progressPercentage: '60',
+  },
+  {
+    Stack: 'Frontend', 
+    progressPercentage: '40',
   },
 ];
 
