@@ -45,7 +45,7 @@ export const skillsSection: SkillsSectionType = {
       ],
       softwareSkills: [
         {
-          skillName: 'dotnetcore',
+          skillName: 'Dotnet core',
           iconifyTag: 'devicon:dotnetcore',
         },
         {
@@ -53,8 +53,8 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:nodejs',
         },
         {
-          skillName: 'JavaScript',
-          iconifyTag: 'logos:javascript',
+          skillName: 'Typescript',
+          iconifyTag: 'skill-icons:typescript',
         },
         {
           skillName: 'Python',
@@ -75,6 +75,11 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'NPM',
           iconifyTag: 'logos:npm-icon',
+        },
+        {
+          skillName: 'Ruby on Rails',
+          iconifyTag: 'simple-icons:rubyonrails',
+          color: '#b82619'
         },
         {
           skillName: 'Elixir',

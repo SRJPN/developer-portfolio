@@ -33,6 +33,7 @@ const Skills = () => {
                             <Icon
                               icon={skill.iconifyTag}
                               data-inline="false"
+                              color={skill.color}
                             ></Icon>
                           </div>
                           <UncontrolledTooltip
