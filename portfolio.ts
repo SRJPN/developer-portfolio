@@ -83,36 +83,6 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Fullstack / Frontend Development',
-      lottieAnimationFile: '/lottie/skills/frontend.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Building dynamic user interfaces with React'),
-        emoji('⚡ Creating robust web applications using Angular'),
-        emoji('⚡ Developing server-side rendered applications with Next.js'),
-        emoji('⚡ Crafting visually appealing and responsive designs with CSS'),
-
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'React',
-          iconifyTag: 'logos:react',
-        },
-        {
-          skillName: 'Angular',
-          iconifyTag: 'devicon:angular',
-        },
-        {
-          skillName: 'NextJs',
-          iconifyTag: 'logos:nextjs',
-        },
-        {
-          skillName: 'CSS',
-          iconifyTag: 'logos:css-3',
-        },
-      ],
-    },
-    {
       title: 'Cloud Infra-Architecture',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
@@ -170,6 +140,36 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Github Actions',
           iconifyTag: 'logos:github-actions',
+        },
+      ],
+    },
+    {
+      title: 'Fullstack / Frontend Development',
+      lottieAnimationFile: '/lottie/skills/frontend.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ Building dynamic user interfaces with React'),
+        emoji('⚡ Creating robust web applications using Angular'),
+        emoji('⚡ Developing server-side rendered applications with Next.js'),
+        emoji('⚡ Crafting visually appealing and responsive designs with CSS'),
+
+      ],
+      softwareSkills: [
+        // ? Check README To get icon details
+        {
+          skillName: 'React',
+          iconifyTag: 'logos:react',
+        },
+        {
+          skillName: 'Angular',
+          iconifyTag: 'devicon:angular',
+        },
+        {
+          skillName: 'NextJs',
+          iconifyTag: 'logos:nextjs',
+        },
+        {
+          skillName: 'CSS',
+          iconifyTag: 'logos:css-3',
         },
       ],
     },
