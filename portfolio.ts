@@ -19,15 +19,15 @@ export const greetings: GreetingsType = {
 };
 
 export const openSource = {
-  githubUserName: 'soorajparameswaran',
+  githubUserName: 'srjpn',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://soorajparameswaran.github.io/',
+  url: 'https://srjpn.github.io/',
   linkedin: 'https://www.linkedin.com/in/srjpn/',
-  github: 'https://github.com/soorajparameswaran',
+  github: 'https://github.com/srjpn',
 };
 
 export const skillsSection: SkillsSectionType = {
