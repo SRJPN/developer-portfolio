@@ -72,6 +72,7 @@ export type ExperienceType = {
 // * PROJECT SECTION
 
 export type ProjectType = {
+  logo?: string;
   name: string;
   desc: string;
   github?: string;

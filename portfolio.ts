@@ -245,7 +245,14 @@ export const experience: ExperienceType[] = [
   }
 ];
 
-export const projects: ProjectType[] = [];
+export const projects: ProjectType[] = [
+  {
+    name: 'Zarvest',
+    desc: 'Zarvest is a software platform that offers easy equity administration and ownership management for organizations. It helps manage equity, ESOPs, captable, funding for employees, HR, Finance, founders etc in your organization in a single intuitive app .',
+    link: 'https://zarvest.com/',
+    github: 'https://github.com/zarvest-i'
+  }
+];
 
 export const feedbacks: FeedbackType[] = [
   // {
