@@ -27,6 +27,7 @@ export type GreetingsType = {
 type SoftwareSkillType = {
   skillName: string;
   iconifyTag: string;
+  color?: string;
 };
 
 type SkillType = {

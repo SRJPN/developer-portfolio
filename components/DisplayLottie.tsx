@@ -1,22 +1,18 @@
-import React from 'react';
-import Lottie from 'react-lottie';
+import LottieAnimation from 'lottie-animation';
+import React, {  } from 'react';
 
 type Props = {
   animationPath: string;
 };
 
-const DisplayLottie = ({ animationPath }: Props) => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    path: animationPath,
-  };
 
+const DisplayLottie = ({ animationPath }: Props) => {
   return (
-    <div onClick={() => null}>
-      {/* @ts-ignore */}
-      <Lottie options={defaultOptions} />
-    </div>
+    <LottieAnimation
+      animationPath={animationPath}
+      loop={true}
+      autoplay={true}
+    />
   );
 };
 

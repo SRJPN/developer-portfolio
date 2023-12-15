@@ -1,11 +1,11 @@
 import React from 'react';
 import { Card, CardBody } from 'reactstrap';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import { FeedbackType } from '../types/sections';
 
 const FeedbackCard = ({ name, feedback }: FeedbackType) => {
   return (
-    <Fade bottom duration={2000}>
+    <Fade direction='up' duration={2000}>
       <Card className="card-lift--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
