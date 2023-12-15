@@ -22,8 +22,6 @@ export const openSource = {
   githubUserName: 'srjpn',
 };
 
-export const contact = {};
-
 export const socialLinks: SocialLinksType = {
   url: 'https://srjpn.github.io/',
   linkedin: 'https://www.linkedin.com/in/srjpn/',
@@ -271,9 +269,6 @@ export const feedbacks: FeedbackType[] = [
   //     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
   // },
 ];
-
-// option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
