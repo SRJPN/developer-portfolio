@@ -63,6 +63,10 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-django',
         },
         {
+          skillName: 'Scala',
+          iconifyTag: 'logos:scala'
+        },
+        {
           skillName: 'AWS-Lambda',
           iconifyTag: 'logos:aws-lambda',
         },
@@ -222,9 +226,16 @@ export const educationInfo: EducationType[] = [
 export const experience: ExperienceType[] = [
   {
     role: 'Senior Software Engineer',
+    company: 'Agoda',
+    companyLogo: '/img/icons/common/agoda-logo-blue.png',
+    date: 'July 2024 – Present',
+    desc: "Agoda.com is an online travel agency catering primarily to consumers in the Asia-Pacific region, with headquarters in Singapore and operations in Bangkok, Thailand. Agoda facilitates reservations for lodging, flights, ground transportation, and activities."
+  },
+  {
+    role: 'Senior Software Engineer',
     company: 'Deserve Labs',
     companyLogo: '/img/icons/common/deserve-logo.png',
-    date: 'July 2022 – Present',
+    date: 'July 2022 – July 20224',
     desc: 'Spearheaded low-level design and implementation across various facets of the self-processing platform. Designed and developed customer rewards systems for SaaS - Self processing platform (Credit card as a service). Single-handedly managed real-time reward processing for each transaction based on custom logic for each tenant.',
   },
   {
@@ -250,10 +261,8 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'Zarvest',
-    desc: 'Zarvest is a software platform that offers easy equity administration and ownership management for organizations. It helps manage equity, ESOPs, captable, funding for employees, HR, Finance, founders etc in your organization in a single intuitive app .',
-    link: 'https://zarvest.com/',
-    github: 'https://github.com/zarvest-i'
+    name: 'ESOP Management Application',
+    desc: 'It is a software platform that offers easy equity administration and ownership management for organizations. It helps manage equity, ESOPs, captable, funding for employees, HR, Finance, founders etc in your organization in a single intuitive app .',
   }
 ];
 
