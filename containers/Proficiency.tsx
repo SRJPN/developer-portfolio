@@ -8,7 +8,7 @@ const Proficiency = () => {
   return (
     SkillBars && (
       <Container className="section section-lg">
-        <Fade direction='up' duration={2000}>
+        <Fade direction="up" duration={2000}>
           <Row>
             <Col lg="6">
               <h1 className="h1">Proficiency</h1>

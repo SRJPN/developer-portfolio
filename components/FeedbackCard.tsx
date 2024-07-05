@@ -5,7 +5,7 @@ import { FeedbackType } from '../types/sections';
 
 const FeedbackCard = ({ name, feedback }: FeedbackType) => {
   return (
-    <Fade direction='up' duration={2000}>
+    <Fade direction="up" duration={2000}>
       <Card className="card-lift--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">

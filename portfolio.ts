@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Sooraj Parameswaran',
   title: "Hi all, I'm Sooraj Parameswaran",
   description:
-    "Senior Software Engineer with over six years of experience leading teams and developing full-stack software applications. Proficient in Event-driven architectures, Microservices architecture, Distributed systems, and Serverless paradigms. Demonstrated success in providing technical solutions to multinational enterprise clients and creating rapid prototypes."
+    'Senior Software Engineer with over six years of experience leading teams and developing full-stack software applications. Proficient in Event-driven architectures, Microservices architecture, Distributed systems, and Serverless paradigms. Demonstrated success in providing technical solutions to multinational enterprise clients and creating rapid prototypes.',
 };
 
 export const openSource = {
@@ -38,8 +38,12 @@ export const skillsSection: SkillsSectionType = {
       skills: [
         emoji('⚡ Developing RESTful APIs using ASP.Net Core'),
         emoji('⚡ Crafting Application Services with Node.js and Express'),
-        emoji('⚡ Constructing RESTful APIs utilizing Django & Django REST Framework'),
-        emoji('⚡ Designing Serverless applications using AWS Lambda & API Gateway'),
+        emoji(
+          '⚡ Constructing RESTful APIs utilizing Django & Django REST Framework'
+        ),
+        emoji(
+          '⚡ Designing Serverless applications using AWS Lambda & API Gateway'
+        ),
       ],
       softwareSkills: [
         {
@@ -64,7 +68,7 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Scala',
-          iconifyTag: 'logos:scala'
+          iconifyTag: 'logos:scala',
         },
         {
           skillName: 'AWS-Lambda',
@@ -81,7 +85,7 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Ruby on Rails',
           iconifyTag: 'simple-icons:rubyonrails',
-          color: '#b82619'
+          color: '#b82619',
         },
         {
           skillName: 'Elixir',
@@ -158,7 +162,6 @@ export const skillsSection: SkillsSectionType = {
         emoji('⚡ Creating robust web applications using Angular'),
         emoji('⚡ Developing server-side rendered applications with Next.js'),
         emoji('⚡ Crafting visually appealing and responsive designs with CSS'),
-
       ],
       softwareSkills: [
         // ? Check README To get icon details
@@ -193,11 +196,11 @@ export const SkillBars: SkillBarsType[] = [
     progressPercentage: '80',
   },
   {
-    Stack: 'Cloud Infra', 
+    Stack: 'Cloud Infra',
     progressPercentage: '60',
   },
   {
-    Stack: 'Frontend', 
+    Stack: 'Frontend',
     progressPercentage: '40',
   },
 ];
@@ -229,7 +232,7 @@ export const experience: ExperienceType[] = [
     company: 'Agoda',
     companyLogo: '/img/icons/common/agoda-logo-blue.png',
     date: 'July 2024 – Present',
-    desc: "Agoda.com is an online travel agency catering primarily to consumers in the Asia-Pacific region, with headquarters in Singapore and operations in Bangkok, Thailand. Agoda facilitates reservations for lodging, flights, ground transportation, and activities."
+    desc: 'Agoda.com is an online travel agency catering primarily to consumers in the Asia-Pacific region, with headquarters in Singapore and operations in Bangkok, Thailand. Agoda facilitates reservations for lodging, flights, ground transportation, and activities.',
   },
   {
     role: 'Senior Software Engineer',
@@ -245,9 +248,9 @@ export const experience: ExperienceType[] = [
     date: 'July 2017 – July 2022',
     desc: 'Developed custom software solutions for clients and actively participated in the software development life cycle. Mentored and guided graduate developers and assisted in deciding software infrastructure. Key Project Contributions:',
     descBullets: [
-      "Database Developer - Product Catalogue: Modelled databases, optimised queries, and improved query performance by over 50%.",
-      "Fullstack Developer - Product Catalogue: Developed a new application reducing spare part search time by 70% for dealers/customers.",
-      "Full Stack / Lead Developer - Exhibition Organisers: Built a new platform to manage over 400 show engagements with global coordination.",
+      'Database Developer - Product Catalogue: Modelled databases, optimised queries, and improved query performance by over 50%.',
+      'Fullstack Developer - Product Catalogue: Developed a new application reducing spare part search time by 70% for dealers/customers.',
+      'Full Stack / Lead Developer - Exhibition Organisers: Built a new platform to manage over 400 show engagements with global coordination.',
     ],
   },
   {
@@ -256,14 +259,14 @@ export const experience: ExperienceType[] = [
     companyLogo: '/img/icons/common/Thoughtworks.jpeg',
     date: 'June 2015 – July 2017',
     desc: 'Contributed to the development of a Ticket Booking Application handling high request loads and maintained an admin portal for shows. Built scalable architecture for an instantaneous load of over 10k requests. Developed applications for iOS and Android devices to provide a consistent user experience.',
-  }
+  },
 ];
 
 export const projects: ProjectType[] = [
   {
     name: 'ESOP Management Application',
     desc: 'It is a software platform that offers easy equity administration and ownership management for organizations. It helps manage equity, ESOPs, captable, funding for employees, HR, Finance, founders etc in your organization in a single intuitive app .',
-  }
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
@@ -282,8 +285,7 @@ export const feedbacks: FeedbackType[] = [
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: 'Sooraj Parameswaran',
-  description:
-    'A passionate Full Stack Web Developer.',
+  description: 'A passionate Full Stack Web Developer.',
   author: 'Sooraj Parameswaran',
   image: 'https://avatars.githubusercontent.com/u/15261233?v=4',
   // url: 'https://developer-portfolio-1hanzla100.vercel.app',

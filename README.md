@@ -99,7 +99,6 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
 
-
 ## Reference
 
 - https://github.com/1hanzla100/hanzla-portfolio.git

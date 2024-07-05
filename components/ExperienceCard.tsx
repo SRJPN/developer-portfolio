@@ -20,7 +20,7 @@ const ExperienceCard = ({
 }: ExperienceType) => {
   return (
     <Col lg="6">
-      <Fade  direction='left' duration={2000}>
+      <Fade direction="left" duration={2000}>
         <Card
           style={{ flex: 1 }}
           className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
@@ -54,8 +54,8 @@ const ExperienceCard = ({
               <ul>
                 {descBullets
                   ? descBullets.map((desc) => {
-                    return <li key={desc}>{desc}</li>;
-                  })
+                      return <li key={desc}>{desc}</li>;
+                    })
                   : null}
               </ul>
             </CardText>

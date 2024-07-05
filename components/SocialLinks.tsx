@@ -7,47 +7,46 @@ type SocialLinksStylesType = {
     color: string;
     ariaLabel: string;
     icon: string;
-  }
   };
+};
 
 const socialLinksStyles: SocialLinksStylesType = {
   url: {
-    color: "white",
-    ariaLabel: "URL",
-    icon: "fa-link"
+    color: 'white',
+    ariaLabel: 'URL',
+    icon: 'fa-link',
   },
   linkedin: {
-    color: "twitter",
-    ariaLabel: "Linkedin",
-    icon: "fa-linkedin"
+    color: 'twitter',
+    ariaLabel: 'Linkedin',
+    icon: 'fa-linkedin',
   },
   github: {
-    color: "github",
-    ariaLabel: "Github",
-    icon: "fa-github"
+    color: 'github',
+    ariaLabel: 'Github',
+    icon: 'fa-github',
   },
   instagram: {
-    color: "instagram",
-    ariaLabel: "Instagram",
-    icon: "fa-instagram"
+    color: 'instagram',
+    ariaLabel: 'Instagram',
+    icon: 'fa-instagram',
   },
   facebook: {
-    color: "facebook",
-    ariaLabel: "Facebook",
-    icon: "fa-facebook"
+    color: 'facebook',
+    ariaLabel: 'Facebook',
+    icon: 'fa-facebook',
   },
   twitter: {
-    color: "twitter",
-    ariaLabel: "Twitter",
-    icon: "fa-twitter"
-  }
-}
-
+    color: 'twitter',
+    ariaLabel: 'Twitter',
+    icon: 'fa-twitter',
+  },
+};
 
 const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
-      { Object.keys(socialLinks).map(link => (
+      {Object.keys(socialLinks).map((link) => (
         <Button
           className="btn-icon-only rounded-circle ml-1"
           color={socialLinksStyles[link].color}

@@ -15,7 +15,7 @@ const Skills = () => {
           return (
             <Row className="my-5" key={index}>
               <Col lg="6" className="order-2 order-lg-1">
-                <Fade direction='left' duration={2000}>
+                <Fade direction="left" duration={2000}>
                   <DisplayLottie animationPath={section.lottieAnimationFile} />
                 </Fade>
               </Col>
@@ -48,9 +48,9 @@ const Skills = () => {
                     })}
                   </div>
                   <div>
-                    {section.skills.map((skill, i) => {
-                      return <p key={i}>{skill}</p>;
-                    })}
+                    {section.skills.map((skill, i) => (
+                      <p key={i}>{skill}</p>
+                    ))}
                   </div>
                 </Fade>
               </Col>

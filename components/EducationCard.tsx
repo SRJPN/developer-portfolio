@@ -7,7 +7,7 @@ const EducationCard = ({
   schoolName,
   course,
   duration,
-  desc
+  desc,
 }: EducationType) => {
   return (
     <Fade direction="left" duration={2000}>

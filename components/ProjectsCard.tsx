@@ -1,12 +1,12 @@
 import React from 'react';
 import { Card, CardBody, Col, Button } from 'reactstrap';
-import {Fade} from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import { ProjectType } from '../types/sections';
 
 const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
-      <Fade direction='up' duration={2000}>
+      <Fade direction="up" duration={2000}>
         <Card className="shadow-lg--hover shadow mt-4">
           <CardBody>
             <div className="d-flex px-3">

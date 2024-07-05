@@ -1,10 +1,9 @@
 import LottieAnimation from 'lottie-animation';
-import React, {  } from 'react';
+import React from 'react';
 
 type Props = {
   animationPath: string;
 };
-
 
 const DisplayLottie = ({ animationPath }: Props) => {
   return (
