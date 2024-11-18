@@ -247,6 +247,10 @@ export const experience: ExperienceType[] = [
     companyLogo: '/img/icons/common/agoda-logo-blue.png',
     date: 'July 2024 – Present',
     desc: 'Agoda.com is an online travel agency catering primarily to consumers in the Asia-Pacific region, with headquarters in Singapore and operations in Bangkok, Thailand. Agoda facilitates reservations for lodging, flights, ground transportation, and activities.',
+    descBullets: [
+      "Worked with the Flights platform team who are responsible for all flight searches and processing flight requests. Dealing with multiple requests per minute.",
+      "Participated in multiple design reviews and code reviews inside the team."
+    ]
   },
   {
     role: 'Senior Software Engineer',
