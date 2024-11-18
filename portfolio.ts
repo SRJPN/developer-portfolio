@@ -256,8 +256,13 @@ export const experience: ExperienceType[] = [
     role: 'Senior Software Engineer',
     company: 'Deserve Labs',
     companyLogo: '/img/icons/common/deserve-logo.png',
-    date: 'July 2022 – July 20224',
-    desc: 'Spearheaded low-level design and implementation across various facets of the self-processing platform. Designed and developed customer rewards systems for SaaS - Self processing platform (Credit card as a service). Single-handedly managed real-time reward processing for each transaction based on custom logic for each tenant.',
+    date: 'July 2022 – June 2024',
+    desc: "A mobile-first credit card platform that allows partners to offer superior personalized experiences for cardholders.",
+    descBullets: [
+      "Spearheaded low-level design and implementation across various facets of the self-processing platform.",
+      "Designed and developed customer rewards systems for SaaS - Self processing platform (Credit card as a service).",
+      "Single-handedly managed real-time reward processing for each transaction based on custom logic for each tenant.",
+    ],
   },
   {
     role: 'Senior Consultant',
@@ -275,7 +280,7 @@ export const experience: ExperienceType[] = [
     role: 'STEP Intern',
     company: 'Thoughtworks Technologies',
     companyLogo: '/img/icons/common/Thoughtworks.jpeg',
-    date: 'June 2015 – July 2017',
+    date: 'June 2015 – June 2017',
     desc: 'Contributed to the development of a Ticket Booking Application handling high request loads and maintained an admin portal for shows. Built scalable architecture for an instantaneous load of over 10k requests. Developed applications for iOS and Android devices to provide a consistent user experience.',
   },
 ];
