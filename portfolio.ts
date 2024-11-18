@@ -1,3 +1,4 @@
+import moment from 'moment';
 import emoji from 'react-easy-emoji';
 import {
   EducationType,
@@ -11,11 +12,24 @@ import {
   GreetingsType,
 } from './types/sections';
 
+const numberToText = (number: number): string => {
+  const textNumbers = [
+    'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+    'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'
+  ];
+  return textNumbers[number] || number.toString();
+};
+
+const calculateExperienceYears = () => {
+  const startDate = moment('2017-07-01');
+  const currentDate = moment();
+  return currentDate.diff(startDate, 'years');
+};
+
 export const greetings: GreetingsType = {
   name: 'Sooraj Parameswaran',
   title: "Hi all, I'm Sooraj Parameswaran",
-  description:
-    'Senior Software Engineer with over six years of experience leading teams and developing full-stack software applications. Proficient in Event-driven architectures, Microservices architecture, Distributed systems, and Serverless paradigms. Demonstrated success in providing technical solutions to multinational enterprise clients and creating rapid prototypes.',
+  description: `Senior Software Engineer with over ${numberToText(calculateExperienceYears())} years of experience leading teams and developing full-stack software applications. Proficient in Event-driven architectures, Microservices architecture, Distributed systems, and Serverless paradigms. Demonstrated success in providing technical solutions to multinational enterprise clients and creating rapid prototypes.`,
 };
 
 export const openSource = {
