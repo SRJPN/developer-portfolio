@@ -313,8 +313,12 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'ESOP Management Application',
-    desc: 'It is a software platform that offers easy equity administration and ownership management for organizations. It helps manage equity, ESOPs, captable, funding for employees, HR, Finance, founders etc in your organization in a single intuitive app .',
+    name: 'EquiManage - ESOP Management Application',
+    desc: 'EquiManage is a comprehensive software platform designed for seamless equity and ownership management. It streamlines the administration of ESOPs, cap tables, funding rounds, and equity allocation, empowering HR, finance teams, and founders to manage ownership structures effortlessly. With an intuitive interface and powerful tools, EquiManage centralizes equity workflows, ensuring transparency and compliance while fostering employee engagement and trust.',
+  },
+  {
+    name: 'Picktrail - A Streamlined Inventory Management Application',
+    desc: 'Picktrail is an inventory management application that simplifies tracking consumables with batch-level precision. It enables businesses to manage stock movements, monitor supplier relationships, and maintain cost traceability with ease. Designed for flexibility, Picktrail supports batch-specific pricing, multiple suppliers, and audit-ready transaction logs, making it an ideal solution for industries like hospitality, healthcare, retail, and manufacturing.',
   },
 ];
 
