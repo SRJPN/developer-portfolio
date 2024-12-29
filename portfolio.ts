@@ -313,12 +313,14 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'VestiTrack - ESOP Management Application',
-    desc: 'VestiTrack is a comprehensive software platform designed for seamless equity and ownership management. It streamlines the administration of ESOPs, cap tables, funding rounds, and equity allocation, empowering HR, finance teams, and founders to manage ownership structures effortlessly. With an intuitive interface and powerful tools, VestiTrack centralizes equity workflows, ensuring transparency and compliance while fostering employee engagement and trust.',
+    name: 'VestiTrack',
+    tagline: 'ESOP & Equity Management Platform',
+    desc: 'VestiTrack is a comprehensive software platform for managing Employee Stock Ownership Plans (ESOPs), cap tables, funding rounds, and equity allocation. It streamlines the administration of ownership structures for HR, finance teams, and founders by centralizing equity workflows, ensuring compliance, and enhancing transparency. With an intuitive interface and powerful features, VestiTrack fosters employee engagement and trust by providing clear visibility into equity distribution and ownership changes.',
   },
   {
-    name: 'Picktrail - A Streamlined Inventory Management Application',
-    desc: 'Picktrail is an inventory management application that simplifies tracking consumables with batch-level precision. It enables businesses to manage stock movements, monitor supplier relationships, and maintain cost traceability with ease. Designed for flexibility, Picktrail supports batch-specific pricing, multiple suppliers, and audit-ready transaction logs, making it an ideal solution for industries like hospitality, healthcare, retail, and manufacturing.',
+    name: 'Picktrail',
+    tagline: 'A Streamlined Inventory Management System',
+    desc: 'Picktrail is an inventory management application designed for precise tracking of consumables at the batch level. It simplifies stock movements, supplier management, and cost traceability for businesses. Picktrail supports batch-specific pricing, multiple suppliers, and audit-ready transaction logs, making it an ideal solution for industries like hospitality, healthcare, retail, and manufacturing. Its flexibility and accuracy help businesses maintain optimal stock control and operational efficiency.',
   },
 ];
 

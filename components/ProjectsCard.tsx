@@ -3,7 +3,7 @@ import { Card, CardBody, Col, Button } from 'reactstrap';
 import { Fade } from 'react-awesome-reveal';
 import { ProjectType } from '../types/sections';
 
-const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
+const ProjectsCard = ({ name, desc, github, link, tagline }: ProjectType) => {
   return (
     <Col lg="6">
       <Fade direction="up" duration={2000}>
@@ -11,7 +11,7 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
           <CardBody>
             <div className="d-flex px-3">
               <div className="pl-4">
-                <h3>{name}</h3>
+                <h3>{name}</h3> <span>{tagline ? `${tagline}` : ''}</span>
                 <p className="description mt-3">{desc}</p>
                 {github ? (
                   <Button
