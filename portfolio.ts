@@ -313,8 +313,8 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'EquiManage - ESOP Management Application',
-    desc: 'EquiManage is a comprehensive software platform designed for seamless equity and ownership management. It streamlines the administration of ESOPs, cap tables, funding rounds, and equity allocation, empowering HR, finance teams, and founders to manage ownership structures effortlessly. With an intuitive interface and powerful tools, EquiManage centralizes equity workflows, ensuring transparency and compliance while fostering employee engagement and trust.',
+    name: 'VestiTrack - ESOP Management Application',
+    desc: 'VestiTrack is a comprehensive software platform designed for seamless equity and ownership management. It streamlines the administration of ESOPs, cap tables, funding rounds, and equity allocation, empowering HR, finance teams, and founders to manage ownership structures effortlessly. With an intuitive interface and powerful tools, VestiTrack centralizes equity workflows, ensuring transparency and compliance while fostering employee engagement and trust.',
   },
   {
     name: 'Picktrail - A Streamlined Inventory Management Application',
