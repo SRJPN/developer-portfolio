@@ -36,6 +36,17 @@ const Proficiency = () => {
               <DisplayLottie animationPath="/lottie/build.json" />
             </Col>
           </Row>
+          <Row className="mt-4 justify-content-center">
+            <Col className="text-center">
+              <a
+                href="https://srjpn.github.io/skills-radar/"
+                rel="noopener noreferrer"
+                className="btn btn-info btn-lg shadow-lg hover-translate-y-n10"
+              >
+                View My Skills Radar
+              </a>
+            </Col>
+          </Row>
         </Fade>
       </Container>
     )
