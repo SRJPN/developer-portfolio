@@ -322,6 +322,12 @@ export const projects: ProjectType[] = [
     tagline: 'A Streamlined Inventory Management System',
     desc: 'Picktrail is an inventory management application designed for precise tracking of consumables at the batch level. It simplifies stock movements, supplier management, and cost traceability for businesses. Picktrail supports batch-specific pricing, multiple suppliers, and audit-ready transaction logs, making it an ideal solution for industries like hospitality, healthcare, retail, and manufacturing. Its flexibility and accuracy help businesses maintain optimal stock control and operational efficiency.',
   },
+  {
+    name: 'FreshSlate',
+    github: 'https://github.com/srjpn/FreshSlate',
+    tagline: 'Start Fresh, Stay Organized.',
+    desc: 'FreshSlate is a command-line tool designed to automate and streamline your development environment setup. With FreshSlate, you can easily configure, install, and manage your essential tools, SSH keys, and system settings in a single, seamless workflow. Whether you\'re setting up a new machine or keeping your environment up-to-date, FreshSlate ensures that every installation is repeatable, consistent, and quick, so you can focus on what truly matters—coding.',
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
