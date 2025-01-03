@@ -45,7 +45,7 @@ const socialLinksStyles: SocialLinksStylesType = {
 
 const SocialLinks = () => {
   return (
-    <div className="btn-wrapper text-lg">
+    <>
       {Object.keys(socialLinks).map((link) => (
         <Button
           className="btn-icon-only rounded-circle ml-1"
@@ -61,7 +61,7 @@ const SocialLinks = () => {
           </span>
         </Button>
       ))}
-    </div>
+    </>
   );
 };
 

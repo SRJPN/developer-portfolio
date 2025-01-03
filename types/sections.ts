@@ -19,7 +19,7 @@ export type GreetingsType = {
   name: string;
   title: string;
   description?: string;
-  resumeLink?: string;
+  generateResume?: boolean;
 };
 
 // * SKILLS SECTION

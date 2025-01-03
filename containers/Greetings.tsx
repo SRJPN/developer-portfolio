@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { greetings } from '../portfolio';
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import DisplayLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
+import ResumeButton from '../components/ResumeButton';
 
 const Greetings = () => {
   useEffect(() => {
@@ -33,21 +34,10 @@ const Greetings = () => {
                     {greetings.title + ' '}
                   </h1>
                   <p className="lead text-white">{greetings.description}</p>
-                  <SocialLinks />
-                  {greetings.resumeLink && (
-                    <div className="btn-wrapper my-4">
-                      <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                        color="default"
-                        href={greetings.resumeLink}
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-file" />
-                        </span>
-                        <span className="btn-inner--text">See My Resume</span>
-                      </Button>
-                    </div>
-                  )}
+                  <div className="btn-wrapper text-lg">
+                    <SocialLinks />
+                    {greetings.generateResume ? <ResumeButton /> : ""}
+                  </div>
                 </Col>
                 <Col lg="6">
                   <DisplayLottie animationPath="/lottie/coding.json" />

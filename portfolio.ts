@@ -51,6 +51,7 @@ export const greetings: GreetingsType = {
   description: `Senior Software Engineer with over ${numberToText(
     calculateExperienceYears()
   )} years of experience leading teams and developing full-stack software applications. Proficient in Event-driven architectures, Microservices architecture, Distributed systems, and Serverless paradigms. Demonstrated success in providing technical solutions to multinational enterprise clients and creating rapid prototypes.`,
+  generateResume: true,
 };
 
 export const openSource = {
