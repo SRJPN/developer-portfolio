@@ -1,5 +1,5 @@
 import React from 'react';
-import { greetings, educationInfo, experience, projects } from '../portfolio';
+import { greetings, educationInfo, experience, projects, socialLinks } from '../portfolio';
 import { Button } from 'reactstrap';
 
 const ResumeButton: React.FC = () => {
@@ -8,6 +8,8 @@ const ResumeButton: React.FC = () => {
 # ${greetings.name}
 
 ${greetings.description}
+
+${Object.keys(socialLinks).map(link => `- [${link}](${socialLinks[link]})`).join('\n')}
 
 ## Experience
 ${experience.map(exp => `### ${exp.role} at ${exp.company}\n- **Duration:** ${exp.date}\n- **Description:** ${exp.desc}\n${exp.descBullets ? exp.descBullets.map(bullet => `  - ${bullet}`).join('\n') : ''}`).join('\n\n')}
